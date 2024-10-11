@@ -46,9 +46,9 @@ Permite trabalhar com grandes volumes de dados utilizando Streams, carregando os
 
 > [!NOTE]
 > ⚙️LINGUAGENS UTILIZADAS.
-   HTML5: Utilizado para o layout inicial da página.
-   CSS: Usado para estilização da página.
-   JavaScript: Usado para a criação do Fetch.
+   - **HTML5**: Utilizado para o layout inicial da página.
+   - **CSS**: Usado para estilização da página.
+   - **JavaScript**: Usado para a criação do Fetch.
 
 
 
