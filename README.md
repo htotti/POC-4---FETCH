@@ -1,6 +1,6 @@
 # 💼 POC 4 - FUNCIONALIDADES E EXEMPLO SOBRE O MÉTODO FETCH 💼
 
----
+--- 
 
 
 > [!IMPORTANT]
