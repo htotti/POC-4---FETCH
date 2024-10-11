@@ -2,10 +2,10 @@
 
 ---
 
-> [!IMPORTANT]  
 
-
-## PARA QUE SERVE?
+> [!IMPORTANT]
+> Key information users need to know to achieve their goal.
+> ## PARA QUE SERVE?
 
 
 
@@ -42,17 +42,6 @@ Modo de requisição (como 'cors', 'no-cors', 'same-origin').
 Suporte a Requisições e Respostas Baseadas em Streams:
 
 Permite trabalhar com grandes volumes de dados utilizando Streams, carregando os dados em partes sem sobrecarregar a memória.
-
-
-
-> [!NOTE]
-> Useful information that users should know, even when skimming content.
-
-> [!TIP]
-> Helpful advice for doing things better or more easily.
-
-> [!IMPORTANT]
-> Key information users need to know to achieve their goal.
 
 > [!WARNING]
 > Urgent info that needs immediate user attention to avoid problems.
