@@ -1,31 +1,30 @@
-# 💼 POC 4 - FUNCIONALIDADES E EXEMPLO SOBRE O MÉTODO FETCH API 💼
+# 💼 POC 4 - Fetch
 
-🤔 - **DESCRIÇÃO E DETALHAMENTO DO PROJETO** 🤔
-> Criamos esse POC, para mostrar o funcionamento do método assíncrono API FETCH, e como ele pode ser usado para buscar novos dados HTTP sem ter que recarregar a página.
-> A página é simples apenas para mostrar o funcionamento, onde o usuário clica no botão e o método busca uma imagem nova de um gato
+🤔 **Descrição**
+> Esta POC mostra o funcionamento do método assíncrono Fetch para consumo de APIs e como ele pode ser utilizado para fazer requisições HTTPS sem recarregar a página.
 
 --- 
 
-
 > [!IMPORTANT]
-> ## PARA QUE SERVE?
+> ## Para que serve?
 
+O método assíncrono Fetch do JavaScript é utilizado para buscar dados de uma página ou até servidores de forma assíncronas. É uma alternativa mais simples e poderosa ao antigo XMLHttpRequest.
 
+- **Funcionalidades**:
 
-O método fetch é uma API moderna do JavaScript usada para realizar requisições assíncronas a servidores. Ela permite que você obtenha ou envie dados entre seu aplicativo e um servidor remoto de forma fácil e eficiente, sem recarregar a página. É uma alternativa mais simples e poderosa ao antigo XMLHttpRequest.
+Com requisições ao servidor de forma assíncrona, o código continua sendo executado sem esperar a resposta do servidor. Isso evita que a interface fique travada.
 
-- **Principais Funcionalidades do fetch**:
-
-Permite fazer requisições ao servidor de forma assíncrona, ou seja, o código continua sendo executado sem esperar a resposta do servidor. Isso evita que a interface fique travada.
 Suporte a Promises:
 
-O método fetch retorna uma Promise, o que facilita o tratamento de sucesso ou erro de uma requisição com os métodos .then() (para sucesso) e .catch() (para erros).
+O método Fetch retorna uma Promise, o que facilita o tratamento de sucesso ou erro de uma requisição com os métodos ```.then()``` para sucesso e ```.catch()``` para erros.
+
 Requisições GET e POST:
 
-O fetch pode ser usado para fazer requisições do tipo GET (para obter dados) ou POST (para enviar dados ao servidor), além de outros métodos HTTP como PUT, DELETE, etc.
+O Fetch pode ser usado para fazer requisições do tipo ```GET```, que obtém dados, ou ```POST```, para enviar dados ao servidor.
+
 Facilidade no Tratamento de Respostas:
 
-O fetch retorna uma Response que pode ser manipulada para extrair diferentes formatos de dados, como:
+O Fetch retorna uma Response que pode ser manipulada para extrair diferentes formatos de dados, como:
 .json() – para dados em formato JSON.
 .text() – para dados em texto simples.
 .blob() – para arquivos binários como imagens ou vídeos.
