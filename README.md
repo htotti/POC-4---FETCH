@@ -54,7 +54,7 @@ Permite trabalhar com grandes volumes de dados utilizando Streams, carregando os
    - **JavaScript**: Usado para a criação do Fetch.
 
 
-⭐NOSSA PÁGINA.
+⭐**NOSSA PÁGINA.**
 > **LAYOUT**: Indroduzimos um layout e uma estilização basica.
 > **BOTÃO**: Assim que o usuário clicar no botão "Próximo Gatinho" o método FETCH será acionado gerando uma nova imagem.
       IMAGEM
