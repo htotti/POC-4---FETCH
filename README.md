@@ -14,8 +14,7 @@
 
 O método fetch é uma API moderna do JavaScript usada para realizar requisições assíncronas a servidores. Ela permite que você obtenha ou envie dados entre seu aplicativo e um servidor remoto de forma fácil e eficiente, sem recarregar a página. É uma alternativa mais simples e poderosa ao antigo XMLHttpRequest.
 
-Principais Funcionalidades do fetch:
-Requisições Assíncronas:
+- **Principais Funcionalidades do fetch**:
 
 Permite fazer requisições ao servidor de forma assíncrona, ou seja, o código continua sendo executado sem esperar a resposta do servidor. Isso evita que a interface fique travada.
 Suporte a Promises:
