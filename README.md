@@ -52,7 +52,6 @@ Permite trabalhar com grandes volumes de dados utilizando Streams, carregando os
    - **HTML5**: Utilizado para o layout inicial da página.
    - **CSS**: Usado para estilização da página.
    - **JavaScript**: Usado para a criação do Fetch.
----
 
 
 >⭐NOSSA PÁGINA.
