@@ -41,13 +41,15 @@ O Fetch retorna uma Response que pode ser manipulada para extrair diferentes for
  ⭐ **Home Page**
    - **Layout**: Introduzimos um layout básico com pouca estilização apenas para mostrar o funcionamento.
    - **Botão**:  No momento que o usuário clica no botão "Proximo Gatinho", o método Fetch será acionado gerando uma nova imagem.
-   - 
+---
+
 ![FotoPagina](https://github.com/user-attachments/assets/95f78983-3f3e-47ad-85c8-d01efe3fb6e3)
 
 ---
 
 📜 **Como funciona o método Fetch?**
-   Esse código busca uma imagem aleatória de gato usando a API [The Cat API] e a exibe na página ao clicar no botão.
+  
+Esse código busca uma imagem aleatória de gato usando a API [The Cat API] e a exibe na página ao clicar no botão.
 
 ```javascript
    const btn = document.getElementById('mudar-imagem');
