@@ -2,11 +2,12 @@
 
 ---
 
-## > [!IMPORTANT] 
+> [!IMPORTANT] 
 
-PARA QUE SERVE?
 
----
+## PARA QUE SERVE?
+
+
 
 O método fetch é uma API moderna do JavaScript usada para realizar requisições assíncronas a servidores. Ela permite que você obtenha ou envie dados entre seu aplicativo e um servidor remoto de forma fácil e eficiente, sem recarregar a página. É uma alternativa mais simples e poderosa ao antigo XMLHttpRequest.
 
