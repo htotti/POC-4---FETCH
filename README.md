@@ -42,6 +42,13 @@ Suporte a Requisições e Respostas Baseadas em Streams:
 
 Permite trabalhar com grandes volumes de dados utilizando Streams, carregando os dados em partes sem sobrecarregar a memória.
 
+---
+
+> [!NOTE]
+> ⚙️lINGUAGENS UTILIZADAS.
+
+
+
 > [!WARNING]
 > Urgent info that needs immediate user attention to avoid problems.
 
