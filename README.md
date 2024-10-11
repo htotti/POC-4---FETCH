@@ -123,6 +123,19 @@ Aqui, adiciona-se um "ouvinte" de eventos ao botão btn, que chama a função ge
 ---
 
 🚀**CONFERINDO SE O CÓDIGO FOI EXECUTADO COM SUCESSO**
-   -
+   - **Primeiro temos que abrir o console, para abrir você tem que fazer**:
+   - Botão direito na Página
+   - Clique em "Inspecionar Elemento"
+   - E clique em console
+
+   -**Se o código for executado com sucesso**
+   ```
+      Imagem gerada com sucesso.
+   ```
+
+   -**Se o codigo não for executado com sucesso aparecerá**
+   ```
+      Erro ao buscar imagem.
+   ```
 
 
