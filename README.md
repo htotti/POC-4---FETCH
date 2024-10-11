@@ -1,4 +1,4 @@
-# 💼 POC 4 - FUNCIONALIDADES E EXEMPLO SOBRE O MÉTODO FETCH 💼
+# 💼 POC 4 - FUNCIONALIDADES E EXEMPLO SOBRE O MÉTODO FETCH API 💼
 
 🤔 - **DESCRIÇÃO E DETALHAMENTO DO PROJETO** 🤔
 > Criamos esse POC, para mostrar o funcionamento do método assíncrono API FETCH, e como ele pode ser usado para buscar novos dados HTTP sem ter que recarregar a página.
