@@ -54,18 +54,28 @@ Permite trabalhar com grandes volumes de dados utilizando Streams, carregando os
    - **JavaScript**: Usado para a criação do Fetch.
 
 
-**NOSSA PÁGINA.**
-> **LAYOUT**: Indroduzimos um layout e uma estilização basica.
-> **BOTÃO**: Assim que o usuário clicar no botão "Próximo Gatinho" o método FETCH será acionado gerando uma nova imagem.
-      IMAGEM
+---
+
+ ⭐ **NOSSA PÁGINA**.
+   - **LAYOUT**: Introduzimos um layout básico com pouca estilização apenas para mostrar o funcionamento.
+   - **BOTÃO**:  Na hora que o usuário clica no botão "Proximo Gatinho" o método FETCH será acionado gernado uma nova imagem.
+   - IMAGEM
+
+---
+
+📜 **EXPLICANDO COMO FUNCIONA O MÉTODO API FETCH**:
+   - Esse código busca uma imagem aleatória de gato usando a API [The Cat API] e a exibe na página ao clicar no botão.
+   - IMAGEM
+   -Selecionando os elementos da página:
+O primeiro passo é pegar o botão e a área onde a imagem do gato será exibida. Para isso, usamos getElementById e guardamos esses elementos em variáveis.
+
+const btn = document.getElementById('mudar-imagem');
+const imgDiv = document.getElementById('imagem-idx1');
 
 
+---
+
+🚀**CONFERINDO SE O CÓDIGO FOI EXECUTADO COM SUCESSO**
+   -
 
 
-
-
-> [!WARNING]
-> Urgent info that needs immediate user attention to avoid problems.
-
-> [!CAUTION]
-> Advises about risks or negative outcomes of certain actions.
