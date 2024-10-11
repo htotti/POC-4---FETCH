@@ -69,24 +69,29 @@ Permite trabalhar com grandes volumes de dados utilizando Streams, carregando os
    
    -**Passo a passo**:
 
-**Selecionando os elementos da página**:
-O primeiro passo do código é identificar o botão que será clicado e a área da página onde a imagem de gato será exibida. Isso é feito através de IDs que estão no HTML.
+**Aqui, dois elementos HTML são capturados pelo JavaScript**:
+btn armazena o botão identificado pelo ID 'mudar-imagem'. Este botão será usado para acionar a troca de imagem.
+imgDiv armazena o elemento com o ID 'imagem-idx1', que é onde a imagem do gato será exibida.
 
-**Função para buscar a imagem de gato**:
-A função principal do código é responsável por fazer a "busca" da imagem. Ela utiliza a chamada de uma API de imagens de gatos. Essa chamada é feita de forma assíncrona, ou seja, o código espera pela resposta da API para continuar. Quando a resposta chega, ela é transformada em um formato que o JavaScript consiga entender, chamado JSON.
+**Esta é uma função assíncrona que busca uma imagem de gato através da API**.
+Primeiro, utiliza fetch para fazer a requisição HTTP para a API (https://api.thecatapi.com/v1/images/search), que retorna uma lista com uma URL de uma imagem.
+A resposta é convertida em JSON através de response.json(), e a imagem é extraída como data[0].url.
+A linha imgDiv.innerHTML = ''; limpa o conteúdo atual do imgDiv (se já houver uma imagem exibida).
+Um novo elemento <img> é criado e configurado com o atributo src (a URL da imagem) e alt (texto alternativo).
+A imagem é então adicionada à div através de appendChild(img).
+O console exibe uma mensagem de sucesso com a URL da imagem gerada
 
-**Mostrando a imagem na tela**:
-Após receber a imagem, o código remove qualquer imagem anterior que possa estar na página e cria uma nova. Essa nova imagem é gerada com as informações que vieram da API, e é então inserida na área reservada da página para ser exibida.
+```
+window.onload = () => {
+  getCat('https://api.thecatapi.com/v1/images/search');
+}
+```
+Esta linha garante que, ao carregar a página, a função getCat seja chamada automaticamente, exibindo uma imagem de gato logo ao abrir a página
 
-**Tratando erros**:
-Caso aconteça algum erro (como a API não responder ou uma falha na conexão), o código trata essa situação de forma amigável. Ele captura o erro e mostra uma mensagem no console do navegador, ajudando a identificar o problema.
-
-**O que acontece quando clicamos no botão**:
-Toda vez que o usuário clica no botão, o código "escuta" essa ação e executa a função que faz a requisição da imagem e exibe o resultado. Cada clique gera uma nova imagem de gato.
-
-Ou seja, o código funciona de maneira simples: ao clicar no botão, ele faz uma solicitação a uma API para trazer uma nova imagem de gato, limpa a imagem anterior (se houver), e exibe a nova. Se houver qualquer problema, o erro é mostrado no console para facilitar o entendimento.
-
-
+```
+btn.addEventListener('click', getCat);
+```
+Aqui, adiciona-se um "ouvinte" de eventos ao botão btn, que chama a função getCat sempre que o botão for clicado. Isso faz com que uma nova imagem de gato seja buscada e exibida a cada clique.
 
 
 ---
